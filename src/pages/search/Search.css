@@ -1,0 +1,96 @@
+
+body {
+  margin: 0;
+  background: #1c1b2e;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  background-image:url('background_banner.jpg');
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  background:transparent;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 38px;
+  height: 38px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius: 10px;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.right-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.search-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search-input {
+  width: 100%;
+  background: #2f2c43;
+  border: 1px solid #494661;
+  padding: 16px;
+  border-radius: 16px;
+  font-size: 16px;
+  color: white;
+}
+
+.search-input::placeholder {
+  color: #8e8ca3;
+}
+
+.results-box {
+  width: 90%;
+  margin: 14px auto;
+  background: #1D1C29;
+  border-radius: 16px;
+  padding: 10px 0;
+  border: 1px solid #3a394a;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 20px;
+  border-bottom: 1px solid #2E2C3E;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.result-item:hover {
+  background: #2d2b3f;
+  cursor: pointer;
+}
+
+.result-icon {
+  width: 18px;
+  opacity: 0.8;
+}
