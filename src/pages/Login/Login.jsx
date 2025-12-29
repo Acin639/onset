@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./Login.css"
 import logo from "../../assets/logo.png"
+import arrow from "../../assets/arrow.png
 import { login, signup } from '../../firebase'
 import netflix_spinner from "../../assets/netflix_spinner.gif"
 import {useNavigate} from 'react-router-dom'
