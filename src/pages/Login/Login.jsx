@@ -35,7 +35,7 @@ const Login = () => {
       <img src={netflix_spinner} alt="" />
     </div> :
     <div className='login'>
-      <img src={arrow} alt="" className='login-logo' onClick={()=>navigate("/landing")}/>
+      <img src={arrow} alt="" className='login-logo' onClick={()=>navigate(-1)}/>
       <div className="login-form">
         <h1>{signState}</h1>
         <form>
