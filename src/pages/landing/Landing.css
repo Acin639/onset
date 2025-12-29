@@ -15,7 +15,7 @@ html,body,#root { height:100%; }*/
 }
 
 /* poster grid - decorative background tiles similar to the reference */
-.poster-grid {
+/**.poster-grid {
   position:absolute;
   inset:0;
   display:flex;
@@ -26,7 +26,7 @@ html,body,#root { height:100%; }*/
   filter: blur(2px) brightness(0.6);
   pointer-events:none;
   z-index:0;
-}
+}**/
 .poster-grid .tile {
   width:160px;
   height:96px;
