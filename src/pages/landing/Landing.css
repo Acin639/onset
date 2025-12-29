@@ -66,12 +66,12 @@ html,body,#root { height:100%; }*/
   
   
 }
-h1 {
-  background: rgba(255, 255, 255, 0.2); /* must be transparent */
+/**h1 {
+  background: rgba(255, 255, 255, 0.2); /* must be transparent *
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  -webkit-backdrop-filter: blur(10px); /* Safari support *
   
-}
+}**/
 /* If the logo contains an img */
 .logo img {
   height: 100%;
