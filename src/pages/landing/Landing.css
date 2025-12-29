@@ -52,7 +52,7 @@ html,body,#root { height:100%; }*/
   align-items:center;
   padding:24px 36px;
 }
-.logo { margin-left:2rem;height:44px; width:70px; color:red;}
+.logo { height:44px; width:70px; color:red;}
 .controls { display:flex; gap:12px; align-items:center; }
 .lang {
   background: rgba(255,255,255,0.06);
