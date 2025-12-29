@@ -55,7 +55,7 @@ html,body,#root { height:100%; }*/
 /* Updated logo styles: make flexible and stop clipping text */
 .logo {
   position:relative;
-  left:20px;
+  left:28px;
   gap: 10px;
   height: 44px;
   width: auto;         /* remove fixed narrow width that caused clipping */
