@@ -54,12 +54,13 @@ html,body,#root { height:100%; }*/
 
 /* Updated logo styles: make flexible and stop clipping text */
 .logo {
-  
+  position:relative;
+  left:30px;
   gap: 10px;
   height: 44px;
   width: auto;         /* remove fixed narrow width that caused clipping */
   color:red;
-  padding-left:120px;
+  
 }
 
 /* If the logo contains an img */
