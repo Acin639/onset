@@ -58,15 +58,8 @@ html,body,#root { height:100%; }*/
   gap: 10px;
   height: 44px;
   width: auto;         /* remove fixed narrow width that caused clipping */
-  max-width: 50%;      /* optional: prevent logo from growing too large */
-  color: red;
-  
-  flex: 0 1 auto;
-
-  /* Important for flex children to be able to shrink / clip properly */
-  min-width: 0;
-  
-  /* keep logo sized to its content */
+  color:red;
+  padding-left:12px;
 }
 
 /* If the logo contains an img */
