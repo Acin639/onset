@@ -8,13 +8,13 @@ const Landing = () => {
   //const {id} = useParams();
   const navigate = useNavigate()
   return (
-    <div className="hero">
+   /** <div className="hero">
       <div className="poster-grid" aria-hidden="true">
         
         {Array.from({length:30}).map((_,i)=>(
           <div key={i} className="tile" />
         ))}
-      </div>
+      </div>**/
 
       <header className="header">
         <h1 className="logo" >LONESTREAM</h1>
