@@ -58,20 +58,19 @@ html,body,#root { height:100%; }*/
 /* Updated logo styles: make flexible and stop clipping text */
 .logo {
   position:relative;
-  left:28px;
+  left:30px;
   gap: 10px;
   height: 44px;
   width: auto;         /* remove fixed narrow width that caused clipping */
   color:red;
-  bl
+  
   
 }
 h1 {
   background: rgba(255, 255, 255, 0.2); /* must be transparent */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); /* Safari support */
-  padding: 1rem 2rem;
-  border-radius: 10px;
+  
 }
 /* If the logo contains an img */
 .logo img {
