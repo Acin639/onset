@@ -8,16 +8,16 @@ const Landing = () => {
   //const {id} = useParams();
   const navigate = useNavigate()
   return (
-    <div className="hero">
+    /**<div className="hero">
       <div className="poster-grid" aria-hidden="true">
-        {/* decorative poster tiles */}
+        
         {Array.from({length:30}).map((_,i)=>(
           <div key={i} className="tile" />
         ))}
-      </div>
+      </div>**/
 
       <header className="header">
-        <H1 className="logo" >LONESTREAM</H1>
+        <h1 className="logo" >LONESTREAM</h1>
         <div className="controls">
           <select className="lang" aria-label="language">
             <option>English</option>
