@@ -11,6 +11,9 @@ html,body,#root { height:100%; }*/
   background: radial-gradient(ellipse at center, rgba(0,0,0,0.45) 10%, rgba(0,0,0,0.75) 60%), #000;
   overflow:hidden;
   background-image:url('./bg.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
 }
 
 /* poster grid - decorative background tiles similar to the reference */
@@ -60,10 +63,16 @@ html,body,#root { height:100%; }*/
   height: 44px;
   width: auto;         /* remove fixed narrow width that caused clipping */
   color:red;
-  backdrop-filter:blur(5px);
+  bl
   
 }
-
+h1 {
+  background: rgba(255, 255, 255, 0.2); /* must be transparent */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
 /* If the logo contains an img */
 .logo img {
   height: 100%;
