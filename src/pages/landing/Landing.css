@@ -55,11 +55,12 @@ html,body,#root { height:100%; }*/
 /* Updated logo styles: make flexible and stop clipping text */
 .logo {
   position:relative;
-  left:30px;
+  left:20px;
   gap: 10px;
   height: 44px;
   width: auto;         /* remove fixed narrow width that caused clipping */
   color:red;
+  backdrop-filter:blur(5px);
   
 }
 
