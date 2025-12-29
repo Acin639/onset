@@ -1,4 +1,3 @@
-
 /* Global reset *
 * { box-sizing: border-box; margin:0; padding:0; }
 html,body,#root { height:100%; }*/
@@ -52,7 +51,40 @@ html,body,#root { height:100%; }*/
   align-items:center;
   padding:24px 36px;
 }
-.logo { height:44px; width:70px; color:red;}
+
+/* Updated logo styles: make flexible and stop clipping text */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 44px;
+  width: auto;         /* remove fixed narrow width that caused clipping */
+  max-width: 50%;      /* optional: prevent logo from growing too large */
+  color: red;
+  flex: 0 0 auto;      /* keep logo sized to its content */
+}
+
+/* If the logo contains an img */
+.logo img {
+  height: 100%;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* If the logo contains an H1/text */
+.logo h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1;
+  white-space: nowrap;    /* prevent wrapping mid-word */
+  overflow: visible;      /* ensure text isn't clipped */
+  text-overflow: clip;
+  color: inherit;
+  font-weight: 700;
+}
+
+/* controls remain on the right */
 .controls { display:flex; gap:12px; align-items:center; }
 .lang {
   background: rgba(255,255,255,0.06);
@@ -131,6 +163,10 @@ html,body,#root { height:100%; }*/
   .emailForm { flex-direction:column; width:100%; gap:10px; }
   .email { width:100%; }
   .cta { width:100%; }
+
+  /* reduce logo font on small screens if necessary */
+  .logo h1 { font-size: 1rem; }
+  .logo { max-width: 65%; }
 }
 
 /* extra polish */
