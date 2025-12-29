@@ -13,7 +13,7 @@ html,body,#root { height:100%; }*/
   background-image:url('./bg.jpg');
   background-repeat:no-repeat;
   background-size:cover;
-  background-position:center;
+  
 }
 
 /* poster grid - decorative background tiles similar to the reference */
