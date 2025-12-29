@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Login.css"
 import logo from "../../assets/logo.png"
-import arrow from "../../assets/arrow.png
+import arrow from "../../assets/arrow_left.png
 import { login, signup } from '../../firebase'
 import netflix_spinner from "../../assets/netflix_spinner.gif"
 import {useNavigate} from 'react-router-dom'
@@ -35,7 +35,7 @@ const Login = () => {
       <img src={netflix_spinner} alt="" />
     </div> :
     <div className='login'>
-      <img src={logo} alt="" className='login-logo'/>
+      <img src={arrow} alt="" className='login-logo'/>
       <div className="login-form">
         <h1>{signState}</h1>
         <form>
