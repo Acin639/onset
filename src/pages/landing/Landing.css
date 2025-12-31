@@ -100,7 +100,7 @@ html,body,#root { height:100%; }*/
   border:1px solid rgba(255,255,255,0.15);
   color:#fff;
   padding:6px 10px;
-  border-radius:6px;
+  border-radius:0.5px;
 }
 .sign {
   background:#e50914;
@@ -141,7 +141,7 @@ html,body,#root { height:100%; }*/
 }
 .email {
   
-  background-color:#FFFFFF;
+  background-color:#FFFFFF !important;
   border:none;
   padding:14px 20px;
   border-radius:8px;
