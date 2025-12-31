@@ -1,6 +1,6 @@
 .login{
     height: 100vh;
-    background-image: linear-gradient(#0000007e, #0000007e), url(../landing/bg.jpg);
+    background-image: linear-gradient(#0000007e, #0000007e), url('../landing/bg.jpg');
     padding: 20px 8%;
 }
 
