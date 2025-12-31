@@ -29,10 +29,10 @@ const Landing = () => {
           className="emailForm"
           onSubmit={(e) => {
             e.preventDefault();
-            alert('Get Started clicked');
+            
           }}
         >
-          <input className="email" type="button"/>
+          <button className="email">Gift us</button>
           <button
             className="cta"
             type="submit"
