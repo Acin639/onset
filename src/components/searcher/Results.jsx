@@ -5,19 +5,28 @@ import { useNavigate } from 'react-router-dom';
 export default function Results({ movies }) {
   const navigate = useNavigate();
   
+  if (!movies || movies.length === 0) return null;
+
   return (
-    <div className="results-box">
-      {movies.map(movie => (
-        <div
-          key={movie.id}
-          className="result-item"
-          onClick={() => navigate(`/stream/${movie.id}`)}
-          style={{ cursor: "pointer" }}
-        >
-          <img src={search_icon} className="result-icon" alt="" />
-          {movie.title + (movie.release_date ? ` (${movie.release_date.split('-')[0]})` : '')}
-        </div>
-      ))}
-    </div>
-  );
+   <div className="results-box">
+    {movies.map(movie => (
+      <div
+        key={movie.id}
+        className="result-item"
+        onClick={() => navigate(`/stream/${movie.id}`)}
+        style={{ cursor: "pointer" }}
+      >
+        <img src={search_icon} className="result-icon" alt="" />
+        {movie.title +
+          (movie.release_date
+            ? ` (${movie.release_date.split('-')[0]})`
+            : '')}
+      </div>
+    ))}
+  </div>
+);
 }
+
+
+
+
