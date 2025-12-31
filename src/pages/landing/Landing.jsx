@@ -22,7 +22,7 @@ const Landing = () => {
         <h1 className="title">Unlimited movies, TV shows and more</h1>
         <p className="subtitle">Watch anywhere. Cancel anytime.</p>
         <p className="subtitle small">
-          Ready to watch? Enter your email to create or restart your membership.
+          follow us on Instagram @blue_heist or gift us to support our work.
         </p>
 
         <form
@@ -32,7 +32,7 @@ const Landing = () => {
             alert('Get Started clicked');
           }}
         >
-          <input className="email" type="email" placeholder="Email Address" required />
+          <input className="email" type="button"/>
           <button
             className="cta"
             type="submit"
