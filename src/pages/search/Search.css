@@ -12,13 +12,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 18px;
-  background:transparent;
+  background:black;
 }
 
 .left-section {
   display: flex;
   align-items: center;
   gap: 12px;
+  background:black;
 }
 
 .logo {
